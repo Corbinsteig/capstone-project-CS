@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    background: url('https://image-cdn.essentiallysports.com/wp-content/uploads/20200702223509/kobe-2001-1.jpg?width=900');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+#player-container {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: content-box;
+    text-shadow:-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; ;
+    
+}
+.topnav {
+    background-color: #0a0a0a;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(24, 23, 23);
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 1px solid rgb(24, 23, 23);
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #272727;
+    color: White;
+    
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    margin-top: 15%;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 2px 0 #000,
+    2px 2px 0 #000; 
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.topnav .current {
+    background-color: rgb(0, 0, 0);
+}
+.blackbar{
+    margin-top: 38rem;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.97);
+}

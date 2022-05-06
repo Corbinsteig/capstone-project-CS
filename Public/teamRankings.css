@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    overflow: hidden;
+}
+#player-container {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: content-box;
+    text-shadow:-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; ;
+    
+}
+.topnav {
+    background: #0a0a0a;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(24, 23, 23);
+
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 1px solid rgb(24, 23, 23);
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #272727;
+    color: White;
+    
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: black;
+    color: black;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    margin-top: 15%;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 2px 0 #000,
+    2px 2px 0 #000; 
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.topnav .current {
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+form {
+    padding: 2em;
+    text-align: center;
+    
+    
+}
+.field {
+
+      margin: 3em auto;
+      opacity: 0.5;
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+      width: 300px;
+      
+}
+      .active {
+        opacity: 1;
+        transform: scale(1.5);
+      }
+      .semi-active {
+        opacity: 0.75;
+        transform: scale(1.25);
+      }
+      label {
+        display: block;
+        text-shadow:-1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        color: white;
+        font-family: 'Acme', sans-serif;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 650;
+      }
+  #a{
+    border: solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    width: auto;
+    font-weight: 900;
+  }
+  h1 {
+      font-size: 1rem;
+  }
+
+
+summary {
+    border: solid white;
+    background-color: transparent;
+    padding: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-shadow:-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+ 
+
+p {
+    text-align: left;
+    width: auto;
+    display:inline-block;
+    padding: 1rem;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+

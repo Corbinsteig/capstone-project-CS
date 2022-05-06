@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000000;
+    background-image: url('https://www.wallpaperflare.com/static/778/44/20/nba-michael-jordan-basketball-slam-dunk-wallpaper.jpg');
+    background-repeat: no-repeat;
+  }
+#player-container {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    box-sizing: content-box;
+    text-shadow:-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; ;
+    padding: 10px;
+    line-height: 45px ;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.topnav {
+    background-color: #0a0a0a;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(24, 23, 23);
+    
+  }
+  
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 1px solid rgb(24, 23, 23);
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+  }
+  
+
+  .topnav a:hover {
+    background-color: #272727;
+    color: White;
+    
+  }
+  
+ 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+    
+    
+  }
+.getplayersbutton {
+  border: solid white;
+    background-color: #0a0a0a;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family : inherit;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.dropbtn {
+    border: solid white;
+    background-color: #0a0a0a;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 10px;
+    
+  }
+  .teamdropdown {
+    overflow: auto;
+    height: 750px;
+  }
+  
+  .dropdown-content button {
+    width: 100%;
+    border: solid rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #272727;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  
+    
+  }
+  .topnav .current {
+    background-color: rgb(0, 0, 0);
+}
+  .DNIA {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow:-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    position:sticky;bottom:0;left:0;right:0;height:50px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+  }
+  summary{
+    cursor: pointer;
+  }
+  
+  .dropdown-content button:hover {background-color: #ddd;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown:hover .dropbtn {background-color: #272727;}
+
+  li:hover a {background-color: #ddd;}
+
+  .getplayersbutton:hover  {background-color: #272727;}
+  .getplayersbutton:active {background-color: #ffffff;}

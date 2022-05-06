@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players Page</title>
+    <link rel="stylesheet" href="Players.css">
+    <style>
+    </style>
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">Home</a>
+        <a class="current" href="Players.html">Teams & Players</a>
+        <a href="teamRankings.html">Team Rankings Creator</a>
+    </div> 
+        
+    <div class="dropdown">
+        <button class="dropbtn" id="seasonsbtn">2015</button>
+        <div class="dropdown-content" id="seasons">
+          <button> 2015 </button>
+          <button> 2016 </button>
+          <button> 2017 </button>
+          <button> 2018 </button>
+          <button> 2019 </button>
+          <button> 2020 </button>
+          <button> 2021 </button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" id="teamsbtn">Hawks ATL</button>
+        <div class="dropdown-content teamdropdown" id="teams">
+        </div>
+      </div>
+      <button class="getplayersbutton" id= "button">Get Players</button>
+      <div id= "player-container"> </div>
+      <footer> 
+        <details class="DNIA">
+          <summary>* DNIA </summary>
+          <p>DNIA: DATA NOT IN API</p>
+        </details>
+      </footer>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="Players.js"></script>
+</body>
+</html>
