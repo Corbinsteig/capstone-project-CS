@@ -5,7 +5,7 @@
 }
 body {
     background-color: #000000;
-    background: url('');
+    background: url('realkobe.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -61,10 +61,10 @@ body {
 }
 h1 {
     color: white;
-    font-size: 75px;
+    font-size: 50px;
     position: absolute;
     margin-top: 15%;
-    margin-left: 25%;
+    margin-left: 17rem;
     text-shadow:
     -1px -1px 0 #000,
     2px -1px 0 #000,
@@ -78,23 +78,24 @@ h1 {
 }
 .blackbar{
     text-align: center;
-    margin-top: 35rem;
+    margin-left: auto;
+    margin-top: 40rem;
     width: 100%;
     height: 500px;
-    background-color: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.95);
     color: white;
-    
     font-family: 'Barlow Semi Condensed', sans-serif;
     display: block;
-
-    
 }
 .blackbar p{
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Dancing Script', cursive;
     padding: 7rem;
     display: block;
+    text-shadow:
+    -1px -1px 0 #000,
+    2px -1px 0 #000,
+    -1px 2px 0 #000,
+    2px 2px 0 #000;
     
 }
 .topnav .companyLogo{
@@ -108,7 +109,7 @@ h1 {
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
-
+    padding-left: 50px;
     
 }
 .topnav .companyName{
@@ -120,7 +121,7 @@ h1 {
     text-decoration: none;
     font-size: 19px;
     font-weight: bolder;
-    
+    padding-left: 50px;
 
     font-family: 'Barlow Semi Condensed', sans-serif;
     

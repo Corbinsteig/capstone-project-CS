@@ -79,7 +79,7 @@ h1 {
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
-
+    padding-left: 50px;
     
 }
 .topnav .companyName{
@@ -91,7 +91,7 @@ h1 {
     text-decoration: none;
     font-size: 19px;
     font-weight: bolder;
-    
+    padding-left: 50px;
 
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
