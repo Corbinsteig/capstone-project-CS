@@ -101,6 +101,6 @@ function checkAccounts(arr) {
     }
     setFormMessage(loginForm, "error", "Invalid username/password combination");   
 }
-// console.log(document.location)
+
 
 

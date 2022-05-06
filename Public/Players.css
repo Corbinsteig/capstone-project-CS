@@ -21,7 +21,7 @@ body {
     font-family: 'Acme', sans-serif;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.topnav {
+.topnav:not(.companyLogo, .companyName) {
     background-color: #0a0a0a;
     overflow: hidden;
     margin: 0;
@@ -31,7 +31,7 @@ body {
   }
   
   
-  .topnav a {
+  .topnav a:not(.companyLogo, .companyName){
     float: right;
     display: block;
     color: #f2f2f2;
@@ -47,19 +47,46 @@ body {
   }
   
 
-  .topnav a:hover {
+  .topnav a:hover:not(.companyLogo, .companyName) {
     background-color: #272727;
     color: White;
     
   }
   
  
-  .topnav a.active {
+  .topnav a.active:not(.companyLogo, .companyName) {
     background-color: #04AA6D;
     color: black;
     
     
   }
+  .topnav .companyLogo{
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px ;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+
+    
+}
+.topnav .companyName{
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bolder;
+    
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
 .getplayersbutton {
   border: solid white;
     background-color: #0a0a0a;
