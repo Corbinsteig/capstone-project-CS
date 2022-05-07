@@ -10,18 +10,18 @@ function blurAll() {
   })
 }
 
-function advanceFocus(event) {
+function coolFocus(event) {
   blurAll();
   const thisField = event.target.closest(".field");
   const nextField = thisField.nextElementSibling;
   const prevField = thisField.previousElementSibling;
   thisField.classList.add("active");
-  if (nextField) nextField.classList.add("semi-active");
-  if (prevField) prevField.classList.add("semi-active");
+  // if (nextField) nextField.classList.add("semi-active");
+  // if (prevField) prevField.classList.add("semi-active");
 }
 
 inputs.forEach(function (f) {
-  f.addEventListener("focus", advanceFocus);
+  f.addEventListener("focus", coolFocus);
 });
 
 firstField.classList.add("active");

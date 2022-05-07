@@ -95,11 +95,11 @@ h1 {
 
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
 form {
     padding: 2em;
     text-align: center;
-    
-    
+
 }
 .field {
 
@@ -110,15 +110,15 @@ form {
       width: 300px;
       
 }
-      .active {
+.active {
         opacity: 1;
         transform: scale(1.5);
       }
-      .semi-active {
+.semi-active {
         opacity: 0.75;
         transform: scale(1.25);
       }
-      label {
+label {
         display: block;
         text-shadow:-1px -1px 0 #000,
         1px -1px 0 #000,
@@ -129,7 +129,7 @@ form {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 650;
       }
-  #a{
+#a{
     border: solid rgb(255, 255, 255);
     background-color: black;
     color: white;
@@ -139,7 +139,7 @@ form {
     width: auto;
     font-weight: 900;
   }
-  h1 {
+h1 {
       font-size: 1rem;
   }
 
