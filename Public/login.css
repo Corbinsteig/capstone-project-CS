@@ -75,6 +75,7 @@ body {
     outline: none;
     background: #eeeeee;
     transition: background 0.2s, border-color 0.2s;
+    
 }
 
 .form__input:focus {
